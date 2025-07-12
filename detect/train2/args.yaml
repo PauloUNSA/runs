@@ -1,6 +1,6 @@
 task: detect
 mode: train
-model: /kaggle/working/yolov12/runs/detect/train2/weights/last.pt
+model: /kaggle/working/runs/detect/train2/weights/last.pt
 data: /kaggle/working/sh17_kaggle.yaml
 epochs: 100
 time: null
@@ -24,7 +24,7 @@ single_cls: false
 rect: false
 cos_lr: false
 close_mosaic: 10
-resume: /kaggle/working/yolov12/runs/detect/train2/weights/last.pt
+resume: /kaggle/working/runs/detect/train2/weights/last.pt
 amp: true
 fraction: 1.0
 profile: false
